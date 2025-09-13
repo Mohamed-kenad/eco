@@ -257,7 +257,7 @@ const ProductList = ({ addToCart, addToWishlist, wishlistItems = [], navigateTo,
 
             {/* Products Grid/List - Responsive grid */}
             <div className={viewMode === 'grid' 
-              ? 'grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 lg:gap-6' 
+              ? 'grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 gap-4 lg:gap-6' 
               : 'space-y-6'
             }>
               {filteredProducts.map((product) => (
